@@ -9,8 +9,8 @@ Answer: https://stackoverflow.com/questions/69290528/mongodbsrv-uri-cannot-have-
 
 2# After cyclic completes its build step, you will notice that it will prompt you to enter a value for MONGODB_CONN_STRING.</br>
 > Issue: </br>
-need uoplad .env file to github</br>
-create var in cyclic (match .env string)</br>
-connect to severless (mongodb)</br>
+1.need uoplad .env file to github</br>
+2.create var in cyclic (match .env string)</br>
+3.connect to severless (mongodb)</br>
 Answer: https://docs.cyclic.sh/how-to/using-mongo-db
 
