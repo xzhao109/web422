@@ -2,7 +2,7 @@
 
 Cyclic link: https://long-plum-dalmatian-gear.cyclic.app/
 
-## Assigment1:
+## Assigment 1(movieAPI):
 1# mongoparseerror: mongodb+srv uri cannot have port number  
 > Issue: password inclucing # change to 23%  
 Answer: https://stackoverflow.com/questions/69290528/mongodbsrv-uri-cannot-have-port-number
