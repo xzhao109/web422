@@ -1,0 +1,12 @@
+#moviesTable tr:hover {
+  cursor: pointer;
+}
+
+.container {
+  padding-top: 25px;
+}
+
+/* To force headings to stay on one line (Run Time) */
+th {
+  white-space: nowrap;
+}
