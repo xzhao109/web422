@@ -57,7 +57,7 @@ function loadMovieData(title = null) {
           )
             .then((res) => res.json())
             .then((data) => {
-              let movieTitle = `${`${data.title}`} `;
+              let movieTitle = `${data.title}`;
 
               movieDetails = `
                 ${`    
