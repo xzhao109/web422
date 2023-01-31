@@ -35,7 +35,7 @@ Answer: https://docs.cyclic.sh/how-to/using-mongo-db
 > If const foo = {bar: {baz: 42}};
 > How to access: console.log(foo.bar.baz); // 42
 
-3# Expanded knowledge (join/ N/A)
+3# Expanded knowledge (join/ NA)
 ```javascript
       let moviesRows = `
       ${data
