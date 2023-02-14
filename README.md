@@ -57,3 +57,36 @@ OR
 ```javascript
 <strong>Cast:</strong> ${data.cast.join(", ") || "N/A"}<br><br>
 ```
+
+## Assigment 3 (my-app):
+**Objective:**
+To continue to work with our "Movies" API (from Assignment 1) on the client-side to produce a rich user interface for
+accessing data. For this assignment, we will be leveraging our knowledge of React and Next.js to create an interface for
+viewing movies. Please Note: Once again, you're free to style your app however you wish. The following specification
+outlines how we can use the React-Bootstrap Components (Bootstrap 5). If you wish to add additional images, styles or
+functionality, please go ahead.
+
+1# Parsing error : Cannot find module 'next/babel'
+```
+{
+  "extends": ["next/babel","next/core-web-vitals"]
+} 
+```
+> Answer: https://stackoverflow.com/questions/68163385/parsing-error-cannot-find-module-next-babel
+
+2# "command not found: create-next-app" how do I create a next application?
+```
+npm install create-next-app
+npm run build &&  npm run start 
+```
+> Answer: https://stackoverflow.com/questions/64149484/command-not-found-create-next-app-how-do-i-create-a-next-application
+
+
+3# "Attempted import error: 'useSWR' is not exported from 'swr' (imported as 'useSWR').
+```
+import { useSWR } from "swr";
+```
+Answer
+```
+import useSWR from "swr";
+```
