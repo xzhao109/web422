@@ -84,9 +84,5 @@ npm run build &&  npm run start
 
 3# "Attempted import error: 'useSWR' is not exported from 'swr' (imported as 'useSWR').
 ```
-import { useSWR } from "swr";
-```
-Answer
-```
-import useSWR from "swr";
+import useSWR from "swr"; -- remove { }
 ```
