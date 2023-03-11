@@ -86,3 +86,28 @@ npm run build &&  npm run start
 ```
 import useSWR from "swr"; -- remove { }
 ```
+
+## Assigment 4 (my-app):
+**Objective:**
+To develop a modern, responsive user interface for searching and viewing data on the publicly available Metropolitan
+Museum of Art Collection API. We will continue to use our knowledge of React, Next.js and React Bootstrap to develop
+our solution. However, if you wish to use a different UI library such as Material Design, etc. or add additional images,
+styles or functionality, please go ahead.
+
+1# Error: "DevTools failed to load SourceMap: Could not load content for chrome-extension:..."
+> Answer: https://stackoverflow.com/questions/61339968/error-message-devtools-failed-to-load-sourcemap-could-not-load-content-for-chr
+
+2# Getting Uncaught "TypeError: path.split is not a function in react"
+> Answer: https://stackoverflow.com/questions/66927051/getting-uncaught-typeerror-path-split-is-not-a-function-in-react
+
+
+3# Uncaught Reference Error: "React is not defined"
+> Answer: https://stackoverflow.com/questions/32070303/uncaught-referenceerror-react-is-not-defined
+
+3# Style
+```javascript
+my-2: make the navbar wider
+me-2: add whitespace between the button and the string 'search'
+ustify-content-end: position the button on the right side of the page
+<Form style={{ marginTop: "25px" }} onSubmit={handleSubmit(submitForm)}>
+```
