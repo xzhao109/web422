@@ -104,7 +104,7 @@ styles or functionality, please go ahead.
 3# Uncaught Reference Error: "React is not defined"
 > Answer: https://stackoverflow.com/questions/32070303/uncaught-referenceerror-react-is-not-defined
 
-3# Style
+4# Style
 ```javascript
 my-2: make the navbar wider
 me-2: add whitespace between the button and the string 'search'
