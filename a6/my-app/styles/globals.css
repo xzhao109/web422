@@ -1,0 +1,15 @@
+.pagination > li > a {
+  background-color: #fff;
+  color: #198754;
+}
+
+.page-item.active .page-link {
+  z-index: 3;
+  color: #fff !important;
+  background-color: #198754 !important;
+  border-color: #198754 !important;
+}
+
+.wiki-link {
+  color: #198754;
+}
